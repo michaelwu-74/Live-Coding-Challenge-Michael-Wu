@@ -6,12 +6,12 @@ let xoff = 0;
 let yoff = 10000;
 let bob = 1;
 
-const sceneW = 400;
-const sceneH = 400;
+const sceneW = 800;
+const sceneH = 800;
 let sliderFOV;
 
 function setup() {
-  createCanvas(800, 400);
+  createCanvas(1600, 800);
   for (let i = 0; i < 4; i++) {
     let x1 = random(sceneW);
     let x2 = random(sceneW);
